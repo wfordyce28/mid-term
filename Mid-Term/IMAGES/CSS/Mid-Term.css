@@ -1,0 +1,72 @@
+#top-logo{
+    padding-bottom: 20px;
+}
+#bottom-er{
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+#outer{
+    background-color: #abfdad;
+    border: 3px solid grey;
+}
+#bottom{
+    height: 410px;
+}
+.bottom-1-2-3{
+    height: 136px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxes{
+    width: 25%;
+    height: 100px;
+    display: flex;
+    background-color: grey;
+    border-radius: 4px;
+    justify-content: center;
+}
+.bottom-split{
+    width: 50%;
+    height: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+.boxes-2{
+    width: 40%;
+    height: 100px;
+    background-color: lavender;
+    border: 2px solid grey;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    font-size: 20px;
+    font-family: "Junction-Regular";
+    color: #000101;
+}
+a:hover{
+    background-color: #a8a8a8;
+}
+a{
+    text-underline: none;
+}
+@media only screen and (max-width: 425px) {
+    img{
+        width: 267px;
+        height: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+@font-face {
+    font-family: "Junction-Regular";
+
+    src:url("../FONTS/Junction-regular[1].woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
